@@ -1,6 +1,6 @@
 {
   "name": "gc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A thin pseudo-wrapper around the v8 garbage collector.",
   "main": "index.js",
   "scripts": {
