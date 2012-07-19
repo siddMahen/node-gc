@@ -1,5 +1,5 @@
 {
-  "name": "node-gc",
+  "name": "gc",
   "version": "0.0.1",
   "description": "A thin pseudo-wrapper around the v8 garbage collector.",
   "main": "index.js",
@@ -11,6 +11,10 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/siddMahen/node-gc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siddMahen/node-mrpc/issues",
+    "email": "siddharth_mahen@me.com"
   },
   "keywords": [
     "gc",
