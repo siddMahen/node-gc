@@ -1,0 +1,33 @@
+{
+  "name": "node-gc",
+  "version": "0.0.1",
+  "description": "A thin pseudo-wrapper around the v8 garbage collector.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap ./test",
+    "install": "node-gyp rebuild",
+    "uninstall": "node-gyp clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/siddMahen/node-gc.git"
+  },
+  "keywords": [
+    "gc",
+    "garbage",
+    "collector"
+  ],
+  "author": "Siddharth Mahendraker",
+  "license": "MIT",
+  "gypfile": true,
+  "devDependencies": {
+    "tap": "~0.2.5",
+    "weak": "~0.2.1"
+  },
+  "dependencies": {
+    "bindings": "~1.0.0"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  }
+}
