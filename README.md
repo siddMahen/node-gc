@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/siddMahen/node-gc.png)](http://travis-ci.org/siddMahen/node-gc)
 # gc
 
 A thin pseudo-wrapper around the `v8` garbage collector.
